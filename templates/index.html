@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartCat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <header class="header">
+        <h1>SmartCat</h1>
+    </header>
+    <main class="main">
+        <h2>Materias</h2>
+        <div class="button-container">
+            <a href="/quiz" class="btn">Química</a>
+            <a href="/game/matematicas" class="btn">Matemáticas</a>
+            <a href="/game/fisica" class="btn">Física</a>
+            <a href="/game/lectura" class="btn">Lectura</a>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="/settings" class="btn">Ajustes</a>
+        <a href="/ranking" class="btn">Ranking</a>
+        <a href="/help" class="btn">Ayuda</a>
+        <a href="/about" class="btn">Acerca de</a>
+    </footer>
+</body>
+</html>
