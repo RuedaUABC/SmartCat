@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Ranking de Jugadores</h1>
+        <table class="ranking-table">
+            <thead>
+                <tr>
+                    <th>Posición</th>
+                    <th>Nombre</th>
+                    <th>Puntaje</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Ejemplo de datos -->
+                <tr>
+                    <td>1</td>
+                    <td>Jorge</td>
+                    <td>1500</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>María</td>
+                    <td>1350</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Carlos</td>
+                    <td>1200</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="/" class="btn">Volver al Inicio</a>
+    </div>
+</body>
+</html>
