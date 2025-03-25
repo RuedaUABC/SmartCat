@@ -1,0 +1,27 @@
+[
+    {
+        "question": "¿Qué tipo de enlace une a los átomos en una molécula de agua?",
+        "options": ["Iónico", "Covalente", "Metálico", "Puente de hidrógeno"],
+        "answer": "Covalente"
+    },
+    {
+        "question": "¿Cuál es el símbolo químico del oxígeno?",
+        "options": ["O", "Ox", "X", "Oxg"],
+        "answer": "O"
+    },
+    {
+        "question": "¿Qué escala se utiliza para medir la acidez o alcalinidad de una solución?",
+        "options": ["Escala de Richter", "Escala de pH", "Escala Kelvin", "Escala de densidad"],
+        "answer": "Escala de pH"
+    },
+    {
+        "question": "¿Cuál es el número atómico del carbono?",
+        "options": ["12", "6", "8", "14"],
+        "answer": "6"
+    },
+    {
+        "question": "¿Cómo se llama el cambio de estado de sólido a gas sin pasar por líquido?",
+        "options": ["Evaporación", "Sublimación", "Condensación", "Fusión"],
+        "answer": "Sublimación"
+    }
+]
