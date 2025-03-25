@@ -1,0 +1,93 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Tipografía moderna */
+    background: linear-gradient(135deg, #FF6FD8, #3813C2); /* Fondo degradado */
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Layout vertical */
+    height: 100vh;
+}
+
+/* Header */
+.header {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: auto; /* Empuja el footer hacia abajo */
+}
+
+/* Main Content */
+.main {
+    flex: 1; /* Toma el espacio restante entre header y footer */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Opciones de respuesta */
+.button-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los botones se ajusten en varias filas */
+    justify-content: center; /* Centra los botones */
+    gap: 10px; /* Espacio uniforme entre botones */
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #ffffff;
+    color: #3813C2;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease; /* Animación suave */
+}
+
+.btn:hover {
+    background: #3813C2;
+    color: #ffffff;
+    transform: scale(1.1); /* Efecto de zoom */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Temporizador y Puntuación */
+#timer, #score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#time {
+    color: #FF6FD8; /* Resaltar tiempo con color diferente */
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+    .btn {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        font-size: 0.8rem;
+        padding: 8px 10px;
+    }
+
+    #timer, #score {
+        font-size: 1rem; /* Reducir tamaño para pantallas pequeñas */
+    }
+}
